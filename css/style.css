@@ -1,5 +1,5 @@
 .football {
-	background-image: url('images/defense.jpg');
+	background-image: url('../images/defense.jpg');
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
