@@ -1,0 +1,108 @@
+.football {
+	background-image: url('images/defense.jpg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.masthead {
+	width: 300px;
+	margin: 7px 0 0 10px;
+}
+
+nav {
+	display: block;
+	background-color: #56a0d3;
+	border-bottom: solid 1px #333;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+}
+
+nav ul li a {
+	line-height: 60px;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #fff;
+	color: #56a0d3;
+}
+
+.pull-right {
+	float: right;
+}
+
+.grid-width {
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.left {
+	margin-right: 5%;
+	width: 70%;
+	float: left;
+}
+
+.right {
+	width: 25%;
+	float: right;
+}
+
+.main {
+	margin-bottom: 80px;
+}
+
+.main h1 {
+	font-size: 9em;
+	letter-spacing: -10px;
+	margin: 20px 0 20px 0;
+}
+
+.main h4 {
+	font-weight:normal;
+	font-size: 2.8em;
+	line-height: 1em;
+	margin: 0 0 60px 0;
+	letter-spacing: -1px;
+	padding-bottom: 20px;
+	border-bottom: 10px solid #56a0d3;
+}
+
+.main p {
+	font-family: georgia, serif;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+aside h3 {
+	margin-top: 50px;
+}
+
+@media (max-width: 1170px) {
+	.grid-width {
+		width: 94%;
+		margin: 0 3%;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.right, .left {
+		width: 100%;
+	}
+
+}
+
+
+
